@@ -1,0 +1,2 @@
+module RialHelper
+end

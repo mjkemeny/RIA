@@ -1,0 +1,99 @@
+@import "bootstrap";
+
+body {
+
+  padding-bottom: 10%;
+  font-size: 17px;
+  font: Verdana;
+  background-color: rgba(255, 255, 255,1);
+
+}
+
+.jumbotron {
+  margin-top:2.5%;
+  width: auto;
+  height: 75vh;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  font-size: 20px;
+  background-image: url('hi-speed-6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.navbar-fixed-top{
+  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 1);
+  font-size: 15px;
+  padding-top: 2.5%;
+  padding-bottom: 0.5%;
+  padding-right: 14.1%;
+  padding-left: 14.1%;
+
+}
+
+.navbar-fixed-bottom{
+  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 1);
+  font-size: 15px;
+  padding-top: 1.0%;
+  padding-bottom: 1.0%;
+  padding-right: 14.1%;
+  padding-left: 14.1%;
+
+}
+
+#buttoncol {
+  display:inline-block;
+  text-align:center;
+
+}
+
+#pricecol {
+  display:inline-block;
+  text-align:left;
+
+}
+
+#slogan {
+  font-style: italic;
+  font-weight: bold;
+  display: block;
+
+}
+
+#jtstyle {
+  display: inline;
+
+  color: black;
+
+
+}
+
+#offerrow {
+  margin-top: 50px;
+
+
+}
+
+#offercol {
+
+  display:inline-block;
+  text-align:center;
+
+}
+
+#imgcenter {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  height:auto;
+  max-height: 125px;
+
+
+}
