@@ -19,12 +19,13 @@ body {
   border-style: solid;
   border-color: lightgray;
   border-width: 1px;
-  font-size: 20px;
+  font-size: 30px;
   background-image: image-url('hi-speed-6.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
 }
+
 
 .navbar-fixed-top{
   background-color: whitesmoke;
@@ -75,6 +76,13 @@ body {
 
 }
 
+#jtstyle2 {
+  display: inline;
+  color: black;
+
+
+}
+
 #offerrow {
   margin-top: 50px;
 
@@ -95,5 +103,38 @@ body {
   height:auto;
   max-height: 125px;
 
+
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+
+  }
+
+  .navbar-fixed-top {
+    font-size: 16px;
+
+  }
+
+  #offercol{
+    font-size: 16px;
+
+  }
+
+  #buttoncol{
+    font-size: 30px;
+
+  }
+
+  #jtstyle2 {
+    font-size: 22px;
+
+  }
+
+  #imgcenter {
+    display: none;
+
+  }
 
 }
