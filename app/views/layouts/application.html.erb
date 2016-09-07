@@ -7,7 +7,22 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <%= csrf_meta_tags %>
 
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-69648418-3', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
   <div class='navbar-fixed-top container-fluid'>
+
+    <div class="navbar-left" id="slogan">
+      Chancellor Investment Services
+    </div>
 
     <div class="navbar-right" id="slogan">
       Lists of Family Office and RIA Investors
@@ -24,7 +39,9 @@
 <footer class="navbar">
   <div class="navbar-fixed-bottom container-fluid">
     <div class="navbar-right">
+      <a href="mailto:CISRIALists@yahoo.com">
       Contact Us to Learn More
+      </a>
     </div>
   </div>
 
